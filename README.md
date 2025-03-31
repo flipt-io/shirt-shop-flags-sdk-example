@@ -46,7 +46,7 @@ vercel env pull
 ### Step 3: Install dependencies
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### Step 4: Run the project

@@ -1,10 +1,10 @@
-import { deserialize, generatePermutations } from 'flags/next';
-import { FlagValues } from 'flags/react';
-import { productFlags, showFreeDeliveryBannerFlag } from '@/flags';
-import { FreeDelivery } from '@/app/free-delivery';
-import { DevTools } from '@/components/dev-tools';
-import { Footer } from '@/components/footer';
-import { Navigation } from '@/components/navigation';
+import { deserialize, generatePermutations } from "flags/next";
+import { FlagValues } from "flags/react";
+import { productFlags, showFreeDeliveryBannerFlag } from "@/flags";
+import { FreeDelivery } from "@/app/free-delivery";
+import { DevTools } from "@/components/dev-tools";
+import { Footer } from "@/components/footer";
+import { Navigation } from "@/components/navigation";
 
 export async function generateStaticParams() {
   // Returning an empty array here is important as it enables ISR, so
