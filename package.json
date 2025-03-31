@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@flipt-io/vercel-adapter": "^0.0.1-rc.1",
+    "@flipt-io/vercel-adapter": "^0.0.1-rc.2",
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "2.2.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
