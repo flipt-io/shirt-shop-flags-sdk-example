@@ -2,9 +2,7 @@
 
 This example uses the [Flags SDK](https://flags-sdk.dev) along with the [Flags Explorer](https://vercel.com/docs/workflow-collaboration/feature-flags/using-vercel-toolbar) and `@vercel/analytics`.
 
-## Demo
-
-[https://shirt-shop.labs.vercel.dev/](https://shirt-shop.labs.vercel.dev/)
+It uses the [Flipt Vercel Adapter](https://github.com/flipt-io/vercel-adapter) to use [Flipt](https://flipt.io) as the feature flag provider.
 
 ## How it works
 
